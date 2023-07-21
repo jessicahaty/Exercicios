@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(178, 223, 226);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal {
+    text-align: center;    
+}
+
+.caixa {
+    height: 4em;
+    margin: 1em;
+}
+
+.botao-enviar {
+    margin-left: 1em;
+    display: block;
+    border-radius: 10px;
+    height: 2em;
+}
