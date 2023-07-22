@@ -1,0 +1,23 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+
+
+
+.numero {
+    height: 30px;
+    width: 20%;
+}
+
+.botao {
+    height: 20px;
+    width: 10%;
+}
+
