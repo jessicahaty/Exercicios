@@ -1,0 +1,27 @@
+body {
+    width: 100%;
+
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+
+
+
+}
+
+.caixa {
+    width: 300px;
+    height: 30px;
+
+}
+
+.botao-enviar {
+    width: 100px;
+    border-radius: 10px;
+    height: 25px;
+}
