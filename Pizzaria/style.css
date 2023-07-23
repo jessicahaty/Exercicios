@@ -1,0 +1,50 @@
+
+body {
+background-color: #a39483;
+background-image: url("https://www.transparenttextures.com/patterns/dark-brick-wall.png");
+
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.perguntas {
+
+    flex-direction: column;
+    display: flex;
+    border: 3px dotted rgb(78, 70, 26);
+    align-items: start;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+    width: 100%;
+
+   
+
+}
+
+
+img {
+    width: 200px;
+}
+
+
+.resposta {
+    font-size: 30px;
+    font-weight: 700;
+}
