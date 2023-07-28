@@ -1,0 +1,39 @@
+body {
+    background-color: #423a31;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.perguntas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+button {
+    border-radius: 100px;
+    height: 50px;
+    
+}
+
+input {
+    height: 50px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+img {
+    height: 200px;
+}
+
+.resultado {
+    color: rgb(255, 255, 255);
+}

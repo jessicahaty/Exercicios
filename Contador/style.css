@@ -1,0 +1,10 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    height: 300px;
+}

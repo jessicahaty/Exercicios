@@ -1,0 +1,31 @@
+.titulo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.principal {
+    display: flex;
+    border: 2px solid rgb(112, 43, 97);
+    justify-content: space-around;
+    width: 1000px;
+    margin: auto;
+    background-color: lightgrey;
+
+}
+
+.caixa-1, .caixa-2, .botao {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botao-enviar {
+    height: 50px;
+    border-color: rgb(132, 43, 216);
+    background-color: rgb(70, 50, 71);
+    color: rgb(255, 255, 255);
+}
