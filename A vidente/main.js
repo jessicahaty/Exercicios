@@ -1,5 +1,7 @@
-function prever()
+function prever(event)
 {
+
+    event.preventDefault();
 
     var nome = document.getElementById('nome').value
     var filhos = document.getElementById('filhos').value
