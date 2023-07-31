@@ -1,4 +1,6 @@
-function calcular() {
+function calcular(event) {
+
+    event.preventDefault();
     var laranjas = document.getElementById('laranjas').value
     var vizinhos = document.getElementById('vizinhos').value
     var laranjasDivididas = parseInt(laranjas/vizinhos)
