@@ -1,4 +1,6 @@
-function enviar() {
+function enviar(event) {
+
+    event.preventDefault();    
     var numeroEscolhido = document.getElementById('numero').value;
 
     if(numeroEscolhido < 0) {
