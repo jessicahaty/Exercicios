@@ -1,4 +1,6 @@
-function calcular() {
+function calcular(event) {
+
+    event.preventDefault();
 
     var custo = document.getElementById('custo').value
     var valorVendido = document.getElementById('valorVendido').value

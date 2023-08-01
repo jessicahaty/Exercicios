@@ -1,11 +1,21 @@
+:root {
+    --cor-de-fundo: #a39483;
+    --cor-da-borda: rgb(78, 70, 26);
+}
+
+
+
+h1 {
+    font-size: 25px;
+}
 
 body {
-background-color: #a39483;
+background-color: var(--cor-de-fundo);
 background-image: url("https://www.transparenttextures.com/patterns/dark-brick-wall.png");
 
 }
 
-.principal {
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +28,7 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-brick-w
 
     flex-direction: column;
     display: flex;
-    border: 3px dotted rgb(78, 70, 26);
+    border: 3px dotted  var(--cor-da-borda);
     align-items: start;
     justify-content: space-between;
     gap: 15px;

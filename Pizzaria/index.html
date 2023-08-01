@@ -1,38 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzaria</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="principal">
-        <div>
-            <h1>Calcule sua pizza !</h1>
-            <img src="/img/pizza.png">
-        </div>
-        <div class="perguntas">
+    <main class="principal">
+        <form>
             <div>
-                <label>Qual o custo ?</label>
-                <input type="number" id="custo">
+                <h1>Calcule sua pizza !</h1>
+                <img src="./img/pizza.png">
+            </div>
+            <div class="perguntas">
+                <div>
+                    <label>Qual o custo ?</label>
+                    <input type="number" id="custo">
+                </div>
+                <div>
+                    <label>Por quanto vai ser vendida ?</label>
+                    <input type="number" id="valorVendido">
+                </div>
+                <div>
+                    <label>Qual o nome da Pizza ?</label>
+                    <input type="text" id="nomePizza">
+                </div>
             </div>
             <div>
-                <label>Por quanto vai ser vendida ?</label>
-                <input type="number" id="valorVendido">
+                <button onclick="calcular(event)" class="botao">Calcular</button>
             </div>
-            <div>
-                <label>Qual o nome da Pizza ?</label>
-                <input type="text" id="nomePizza">
-            </div>
-        </div>
-        <div>
-            <button onclick="calcular()" class="botao">Calcular</button>
-        </div>
-        <div id="resposta" class="resposta">
-        
-        </div>    
-    </div>
+            <div id="resposta" class="resposta"></div>   
+        </form> 
+    </main>
 
 
 
