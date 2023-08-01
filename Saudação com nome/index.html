@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saudação com nome</title>
+    <link rel="stylesheet" href="/reset/reset.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="principal">
-        <label>Qual seu nome ?</label>
-        <input type="text" class="caixa" id="nome">
-        <button onclick="enviar()" class="botao-enviar">Enviar</button>
-    </div>
+    <main class="principal">
+        <form>
+            <label>Qual seu nome ?</label>
+            <input type="text" class="caixa" id="nome">
+            <button onclick="enviar(event)" class="botao-enviar">Enviar</button>
+        </form>
+    </main>
     <script src="main.js"></script>
 </body>
 </html>

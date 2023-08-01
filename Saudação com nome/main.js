@@ -1,4 +1,7 @@
-function enviar() {
+function enviar(event) {
+
+    event.preventDefault(); 
+    
     var nome = document.getElementById('nome').value;
     
     document.write('Ola ', nome)
