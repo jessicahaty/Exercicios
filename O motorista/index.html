@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O motorista</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1 class="titulo">Teste para saber se é permitido você dirigir em seu país.</h1>
-    <div class="principal">
+    <main class="principal">
+        <form>
+            <div class="caixa-1">
+                <label>Coloque sua idade</label>
+                <input type="number" id="idade">
+            </div>
 
-        <div class="caixa-1">
-            <label>Coloque sua idade</label>
-            <input type="number" id="idade">
-        </div>
-
-        <div class="caixa-2">
-            <label>Coloque a idade permitida no seu país</label>
-            <input type="number" id="idadePermitida">
-        </div>
-        <div class="botao">
-        <button onclick="calcula()" class="botao-enviar">Enviar</button>
-        </div>
-    </div>
+            <div class="caixa-2">
+                <label>Coloque a idade permitida no seu país</label>
+                <input type="number" id="idadePermitida">
+            </div>
+            <div class="botao">
+            <button onclick="calcula(event)" class="botao-enviar">Enviar</button>
+            </div>
+        </form>    
+    </main>
     <script src="main.js"></script>
 </body>
 </html>
